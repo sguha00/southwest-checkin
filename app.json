@@ -16,11 +16,7 @@
     "RAILS_ENV": "production",
     "RACK_ENV": "production",
     "RAILS_SERVE_STATIC_FILES": "true",
-<<<<<<< 580cf53ea609ed8bfb8d49ffeb354d8ed7a225aa
     "MAILER_ADDRESS": "smtp.sendgrid.net",
-=======
-    "MAILER_ADDRESS": "smtp.mandrillapp.com",
->>>>>>> heroku app.json configuration
     "MAILER_DOMAIN": "heroku.com",
     "REDIS_PROVIDER": "REDISCLOUD_URL",
     "SITE_URL": {
@@ -45,12 +41,6 @@
   "addons": [
     "rediscloud:30",
     "heroku-postgresql",
-<<<<<<< 580cf53ea609ed8bfb8d49ffeb354d8ed7a225aa
     "sendgrid:starter"
   ]
 }
-=======
-    "mandrill:starter"
-  ]
-}
->>>>>>> heroku app.json configuration
