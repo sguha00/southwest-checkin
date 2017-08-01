@@ -672,7 +672,7 @@
             <div align="center" id="emb-email-header" class="logo-center">
               <a href="">
                 <%= link_to ENV['SITE_URL'], alt: ENV['SITE_NAME'] do %>
-                  <%= image_tag 'logo-dark-400.png', alt: 'chkmein.co', width: "200", height: "72", style: "max-width: 300px" %>
+                  <%= image_tag 'logo-dark-400.png', alt: ENV['SITE_NAME'], width: "200", height: "72", style: "max-width: 300px" %>
                 <% end %>
               </a>
             </div>
